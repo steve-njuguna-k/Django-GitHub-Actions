@@ -5,8 +5,8 @@ on:
     branches:
       - master
 
-  pull-request:
-    bramches:
+  pull_request:
+    branches:
       - master
 
 jobs:
