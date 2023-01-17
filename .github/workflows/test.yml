@@ -26,11 +26,7 @@ jobs:
         run: 
           pip install flake8
           flake8
-      - name: Coverage Report
-        run:
-          coverage run manage.py test
-          coverage report
-      - name:
+      - name: Run Tests
         run:
           python3 manage.py test
 
